@@ -1,172 +1,178 @@
 # Documento de Visão do Produto  
-## Aplicativo Mobile de Apoio Estratégico Contábil
+## Atlas Contábil — Aplicativo Mobile de Apoio Estratégico Contábil
 
 ---
 
 ## 1. Visão Geral
 
-O presente projeto consiste no desenvolvimento de um aplicativo mobile voltado ao apoio estratégico de escritórios de contabilidade. A solução será uma ferramenta interna, destinada exclusivamente ao uso de contadores, com foco na organização de informações, geração de orientações técnicas automatizadas e simulação de cenários tributários.
+O **Atlas Contábil** é um aplicativo mobile desenvolvido em Flutter como parte do **Projeto Integrado do módulo Desenvolvimento de Sistemas Móveis**, elaborado por alunos do curso de Ciências da Computação com o objetivo de aplicar, na prática, conceitos de engenharia de software, desenvolvimento mobile e organização de sistemas digitais.
 
-O sistema não terá caráter público nem será destinado a clientes finais, funcionando como um assistente estratégico digital para o profissional contábil.
+O projeto propõe a criação de uma ferramenta interna voltada ao apoio estratégico de escritórios de contabilidade, auxiliando profissionais na organização de informações, análise de cenários tributários e geração de orientações técnicas.
+
+A aplicação possui caráter acadêmico e utiliza dados fictícios, não sendo destinada ao uso comercial ou à manipulação de dados reais, funcionando como um protótipo funcional de uma solução tecnológica aplicada ao contexto contábil.
 
 ---
 
-## 2. Problema Identificado
+## 2. Contexto do Projeto
+
+O desenvolvimento do Atlas Contábil integra as atividades do módulo **Desenvolvimento de Sistemas Móveis**, cujo objetivo é proporcionar aos alunos experiência prática no ciclo completo de criação de software, incluindo:
+
+- Planejamento do produto;
+- Levantamento de requisitos;
+- Modelagem do sistema;
+- Desenvolvimento de interfaces;
+- Organização do fluxo de trabalho utilizando ferramentas colaborativas;
+- Utilização de inteligência artificial para facilitar processos;
+
+O projeto simula um cenário real de desenvolvimento profissional, permitindo a aplicação de metodologias e boas práticas utilizadas na indústria de software.
+
+---
+
+## 3. Problema Identificado
 
 Profissionais da área contábil lidam diariamente com:
 
-- Grande volume de clientes
-- Diversos regimes tributários
-- Obrigações fiscais com prazos distintos
-- Demandas constantes por orientação técnica
-- Necessidade de simular cenários estratégicos antes de decisões
+- Grande volume de clientes e informações fiscais;
+- Diversidade de regimes tributários;
+- Obrigações com prazos variados;
+- Necessidade constante de consultas técnicas;
+- Análise estratégica antes da tomada de decisões.
 
-Muitas dessas análises são realizadas manualmente, consumindo tempo e aumentando a possibilidade de erros operacionais.
-
-Além disso, durante reuniões com clientes, o contador precisa organizar rapidamente informações e recomendações estratégicas.
+Grande parte dessas atividades ocorre de forma manual ou descentralizada, o que pode gerar retrabalho, perda de tempo e dificuldades na organização durante análises e reuniões estratégicas.
 
 ---
 
-## 3. Proposta de Solução
+## 4. Proposta de Solução
 
-O aplicativo propõe centralizar informações e oferecer:
+O Atlas Contábil propõe centralizar informações e oferecer suporte estratégico por meio de um aplicativo mobile que disponibiliza:
 
-- Dashboard com visão geral de clientes e alertas
-- Barra de pesquisa inteligente para geração de PDF técnico informativo
-- Simulador estratégico tributário
-- Modo Reunião com resumo automatizado
-- Modo Estratégico para análise da carteira de clientes
+- Dashboard com indicadores e alertas simulados;
+- Pesquisa inteligente com geração de documentos informativos em PDF;
+- Simulador de cenários tributários;
+- Modo Reunião com resumos automatizados;
+- Modo Estratégico para análise geral da carteira de clientes.
 
-A solução utilizará dados simulados para fins acadêmicos, garantindo segurança e ética no desenvolvimento.
-
----
-
-## 4. Público-Alvo
-
-O público-alvo do produto são:
-
-- Escritórios de contabilidade de pequeno e médio porte
-- Contadores autônomos
-- Profissionais da área fiscal e tributária
-
-O aplicativo será utilizado exclusivamente como ferramenta interna profissional.
+Todas as funcionalidades utilizam dados simulados, garantindo segurança e adequação ao contexto acadêmico.
 
 ---
 
-## 5. Objetivos do Produto
+## 5. Público-Alvo
 
-### 5.1 Objetivo Geral
+O produto é conceitualmente direcionado a:
 
-Desenvolver um aplicativo mobile que auxilie o contador na organização, análise e tomada de decisão estratégica.
+- Escritórios de contabilidade de pequeno e médio porte;
+- Contadores autônomos;
+- Profissionais da área fiscal e tributária.
 
-### 5.2 Objetivos Específicos
-
-- Facilitar a visualização de informações importantes em um único painel.
-- Reduzir o tempo gasto com consultas técnicas.
-- Auxiliar na preparação de reuniões com clientes.
-- Permitir simulações de cenários tributários.
-- Demonstrar, academicamente, o uso de tecnologia e inteligência artificial aplicada à contabilidade.
+No contexto atual, o sistema é utilizado exclusivamente como **protótipo acadêmico**.
 
 ---
 
-## 6. Principais Funcionalidades
+## 6. Objetivos do Produto
 
-### 6.1 Dashboard
+### 6.1 Objetivo Geral
 
-- Número de clientes simulados
+Desenvolver um aplicativo mobile funcional que demonstre como tecnologias modernas podem auxiliar o profissional contábil na organização e análise estratégica de informações.
+
+### 6.2 Objetivos Específicos
+
+- Centralizar informações relevantes em um único ambiente.
+- Reduzir o tempo de consulta e análise simulada.
+- Apoiar a preparação de reuniões estratégicas.
+- Permitir simulações tributárias educacionais.
+- Aplicar conceitos de desenvolvimento mobile em um cenário realista.
+- Demonstrar o uso de inteligência artificial como apoio informativo.
+
+---
+
+## 7. Principais Funcionalidades
+
+### 7.1 Dashboard
+- Indicadores gerais simulados
 - Alertas fiscais
-- Obrigações próximas do vencimento
-- Indicadores de crescimento
+- Obrigações próximas
+- Métricas de acompanhamento
 
-### 6.2 Pesquisa Inteligente
-
-- Campo de busca
-- Geração automática de PDF com:
+### 7.2 Pesquisa Inteligente
+- Campo de pesquisa contextual
+- Geração automática de PDF contendo:
   - Explicação da situação
   - Passos recomendados
   - Pontos de atenção
-  - Recomendações estratégicas
+  - Orientações estratégicas
 
-### 6.3 Gestão de Clientes
-
-- Visualização de clientes fictícios
-- Regime tributário
-- Situação atual
+### 7.3 Gestão de Clientes
+- Clientes fictícios
+- Regimes tributários simulados
+- Situação operacional
 - Alertas individuais
 
-### 6.4 Simulador Estratégico
-
+### 7.4 Simulador Estratégico
 - Alteração de faturamento
-- Simulação de contratação de funcionários
+- Simulação de contratações
 - Mudança de regime tributário
-- Impacto financeiro estimado
+- Estimativa de impacto financeiro
 
-### 6.5 Modo Reunião
+### 7.5 Modo Reunião
+- Resumo executivo automatizado
+- Pontos críticos identificados
+- Sugestões estratégicas
 
-- Geração automática de resumo executivo
-- Pontos críticos
-- Recomendações
-
-### 6.6 Modo Estratégico
-
-- Análise da carteira geral
-- Identificação de riscos
-- Projeção de crescimento
+### 7.6 Modo Estratégico
+- Análise geral da carteira
+- Identificação de riscos simulados
+- Projeções de crescimento
 
 ---
 
-## 7. Diferenciais do Produto
+## 8. Diferenciais do Produto
 
-- Não é apenas um chatbot.
-- Funciona como ferramenta estratégica interna.
-- Foco em apoio à decisão.
-- Organização profissional voltada à rotina contábil.
-- Simulações com finalidade acadêmica.
+- Desenvolvido como experiência prática de aprendizado.
+- Simulação de ferramenta profissional real.
+- Foco em apoio estratégico e não apenas operacional.
+- Estrutura baseada em boas práticas de desenvolvimento.
+- Integração entre conceitos acadêmicos e aplicação prática.
 
 ---
 
-## 8. Escopo do Projeto
+## 9. Escopo do Projeto
 
 ### Incluído no Escopo
-
-- Desenvolvimento mobile em Flutter
-- Interface funcional
-- Dados simulados
-- Geração de PDFs técnicos
+- Desenvolvimento mobile utilizando Flutter;
+- Interface funcional navegável;
+- Dados fictícios para simulação;
+- Geração de documentos informativos.
 
 ### Fora do Escopo
-
-- Integração com sistemas reais
-- Uso de dados fiscais reais
-- Implementação comercial
-- Conformidade jurídica oficial
+- Integrações governamentais reais;
+- Uso de dados fiscais reais;
+- Implementação comercial;
+- Validação jurídica ou contábil oficial.
 
 ---
 
-## 9. Premissas e Restrições
+## 10. Premissas e Restrições
 
 ### Premissas
-
-- Projeto acadêmico
-- Dados fictícios
-- Uso educacional
+- Projeto educacional.
+- Desenvolvimento realizado por alunos.
+- Uso exclusivo de dados simulados.
 
 ### Restrições
-
-- Tempo limitado de desenvolvimento
-- Sem integração com APIs governamentais
-- Sem armazenamento de dados sensíveis
+- Tempo acadêmico limitado.
+- Recursos técnicos reduzidos.
+- Ausência de integrações externas reais.
 
 ---
 
-## 10. Critérios de Sucesso
+## 11. Critérios de Sucesso
 
 O projeto será considerado bem-sucedido se:
 
-- O aplicativo estiver funcional
-- As telas estiverem organizadas e navegáveis
-- A geração de PDF funcionar corretamente
-- O simulador apresentar resultados coerentes
-- A proposta demonstrar aplicação prática de tecnologia na área contábil
+- O aplicativo apresentar navegação funcional;
+- As interfaces estiverem organizadas e coerentes;
+- As funcionalidades principais forem demonstráveis;
+- A documentação estiver completa;
+- O projeto evidenciar aplicação prática dos conceitos estudados no módulo.
 
 ---
