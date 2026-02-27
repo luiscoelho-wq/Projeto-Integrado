@@ -8,7 +8,7 @@ O sistema trabalha exclusivamente com dados simulados, garantindo um ambiente se
 
 ## PROBLEMA
 
-Escritórios de contabilidade lidam diariamente com múltiplas demandas técnicas, prazos tributários, consultas legislativas e análises estratégicas relacionadas aos seus clientes.
+Escritórios de contabilidade lidam diariamente com muitas demandas técnicas, prazos tributários, consultas legislativas e análises estratégicas relacionadas aos seus clientes.
 
 A elaboração de orientações técnicas e relatórios pode exigir tempo significativo, além de organização e padronização das informações. A ausência de uma ferramenta centralizada que auxilie na geração de documentos, análise de cenários e visualização estratégica da carteira pode impactar a eficiência operacional do escritório.
 
